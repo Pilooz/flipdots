@@ -1,0 +1,19 @@
+{
+  "name": "flipdots",
+  "version": "1.0.0",
+  "description": "interface de pilotage de panneaux flipdots",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/erasme/flipdots.git"
+  },
+  "author": "Baptiste Deneayer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erasme/flipdots/issues"
+  },
+  "homepage": "https://github.com/erasme/flipdots#readme"
+}
