@@ -19,12 +19,14 @@ void setup() {
 int i= 0;
 
 void loop(){
-  myBoard.clear();
+  //myBoard.clear();
+  //delay(500);
   
 
   /*
    *  Code pour Node JS communication par Serial
-   * if (Serial.available() && i<20) {
+   */
+   if (Serial.available() && i<20) {
     // get the new byte:
     char inChar = (char)Serial.read();
     buf[i] = inChar;
@@ -62,10 +64,5 @@ void loop(){
     }
   } else {i=0;}
 
-  myBoard.releaseCurrent();*/
+  myBoard.releaseCurrent();
 }
-
-
-
-
-
