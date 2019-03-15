@@ -43,8 +43,9 @@ function sleep(time){
 // SerialPort Handler
 
 var SerialPort = require('serialport');
-var port = new SerialPort('/dev/tty.usbmodem1421', {
-	baudRate: 115200
+var port = new SerialPort('/dev/cu.usbmodem1411', {
+	baudRate: 115200,
+	autoOpen: true
 }, function(err){
 	if(err){
 		return  console.log("Error on opening serial port: " + err.message);
