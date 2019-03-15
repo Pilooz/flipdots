@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/erasme/flipdots/issues"
   },
-  "homepage": "https://github.com/erasme/flipdots#readme"
+  "homepage": "https://github.com/erasme/flipdots#readme",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "serialport": "^7.1.4",
+    "server-static": "^2.0.5",
+    "socket.io": "^2.2.0"
+  }
 }
